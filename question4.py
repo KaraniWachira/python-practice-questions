@@ -4,6 +4,8 @@
 # an operation (+, -, *, /) from the user.
 # Perform the operation and print the result.
 
+
+# function to define the arithmetic operations my simple calculator can perform
 def simple_calc():
    print("operator 1: Addition")
    print("operator 2: Subtraction")
@@ -33,14 +35,14 @@ while True:
             else:
                 print("Invalid operator and operand")
 
-
+            # ask the user if they want to perform another arithmetic operation
             proceed = input("Do you want to proceed? (yes/no): ")
             if proceed.lower()!= 'yes':
                 break
 
             print("Thank you!")
 
-
+# function call to start the simple calculator
 simple_calc()
 
 
