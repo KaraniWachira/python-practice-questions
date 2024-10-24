@@ -1,6 +1,5 @@
 # Grade Categorizer
 
-
 # Write a program that takes a score (0-100) as input and categorizes it into one of the following
 # grades:
 # A (90-100)
@@ -8,7 +7,6 @@
 # C (70-79)
 # D (60-69)
 # F (below 60)
-
 
 def grade_categorizer():
     # request the user for score
